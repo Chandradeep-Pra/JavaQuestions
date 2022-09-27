@@ -21,12 +21,13 @@ public class MarksAverage {
 
 	}
 
-	private static int findAvg(int[] array) {
-		double totalMarks=0;
+	private static float findAvg(int[] array) {
+		int totalMarks=0;
 		for(int i=0;i<10;i++) {
 			totalMarks+=array[i];
 		}
-		return totalMarks/10;
+		float average = (float)totalMarks/10;
+		return average;
 	}
 
 }
