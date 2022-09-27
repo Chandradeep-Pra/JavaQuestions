@@ -22,7 +22,7 @@ public class MarksAverage {
 	}
 
 	private static int findAvg(int[] array) {
-		int totalMarks=0;
+		double totalMarks=0;
 		for(int i=0;i<10;i++) {
 			totalMarks+=array[i];
 		}
